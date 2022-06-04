@@ -1,7 +1,9 @@
 .menu__bar {
-    margin: 20px auto;
+    margin: 30px 30px;
     padding: 0;
     list-style: none;
+    font-size: 20px;
+    font-weight: bold;
 
 }
 
@@ -21,6 +23,7 @@
 .menu__bar .menu__bar__dropdown li {
     display: block;
     margin-top: 10px;
+    font-size: 16px;
 }
 
 li:hover .menu__bar__dropdown {
