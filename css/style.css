@@ -1,4 +1,35 @@
- /*010*/
+.menu__bar {
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu__bar>li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.menu__bar .menu__bar__dropdown {
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity 2s, height 1s;
+}
+
+.menu__bar .menu__bar__dropdown li {
+    display: block;
+    margin: 0;
+}
+
+li:hover .menu__bar__dropdown {
+    height: 300px;
+    opacity: 1;
+    transition: opacity 2s, height 1s;
+}
+
+/*010*/
 .wrapper {
     width: 75%; /*Задаем ширину родителя*/
     padding: 5%; /*Внутренний отступ*/
