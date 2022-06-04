@@ -1,5 +1,5 @@
 .menu__bar {
-    margin: 30px 30px;
+    margin: 20px 50px;
     padding: 0;
     list-style: none;
     font-size: 20px;
@@ -9,7 +9,7 @@
 
 .menu__bar>li {
     display: inline-block;
-    margin: 5px 20px;
+    margin: 5px 65px;
 }
 
 .menu__bar .menu__bar__dropdown {
@@ -17,13 +17,18 @@
     overflow: hidden;
     height: 0;
     opacity: 0;
-    transition: opacity 2s, height 1s;
+    transition: opacity 1s, height 1s;
 }
 
 .menu__bar .menu__bar__dropdown li {
     display: block;
     margin-top: 10px;
     font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 li:hover .menu__bar__dropdown {
@@ -34,8 +39,8 @@ li:hover .menu__bar__dropdown {
 
 /*010*/
 .wrapper {
-    width: 75%; /*Задаем ширину родителя*/
-    padding: 5%; /*Внутренний отступ*/
+    width: 70%; /*Задаем ширину родителя*/
+    padding: 2%; /*Внутренний отступ*/
     margin: 0 auto; /*Внешний отступ*/
 }
 
