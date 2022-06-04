@@ -1,40 +1,41 @@
+  /*010*/
 .menu__bar {
-    margin: 20px 50px;
-    padding: 0;
-    list-style: none;
-    font-size: 20px;
-    font-weight: bold;
+    margin: 20px 50px; /*Внешний отступ*/
+    padding: 0; /*Внутренний отступ*/
+    list-style: none; /*Убираем в списке кружки*/
+    font-size: 20px; /*Задаем размер шрифта*/
+    font-weight: bold; /*Делаем текст жирным*/
 
 }
-
+  /*011*/
 .menu__bar>li {
-    display: inline-block;
-    margin: 5px 65px;
+    display: inline-block; /*Делаем список блоками в линию*/
+    margin: 5px 65px; /*Внешний отступ*/
 }
-
+  /*020*/
 .menu__bar .menu__bar__dropdown {
-    position: absolute;
-    overflow: hidden;
+    position: absolute; /*Абсолютное положение к родителю*/
+    overflow: hidden; /*Убираем обрезку содержимого, если контент выходит за рамки блока*/
     height: 0;
     opacity: 0;
     transition: opacity 1s, height 1s;
 }
-
+  /*021*/
 .menu__bar .menu__bar__dropdown li {
-    display: block;
-    margin-top: 10px;
-    font-size: 16px;
+    display: block; /*Делаем список блочным*/
+    margin-top: 10px; /*Внешний отступ для верха*/
+    font-size: 16px; /*Задаем размер шрифта*/
 }
-
+  /*001*/
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /*Убираем нижнее подчеркивание*/
+    color: black; /*Делаем текст черным*/
 }
-
+  /*021*/
 li:hover .menu__bar__dropdown {
-    height: 500px;
-    opacity: 1;
-    transition: opacity 2s, height 1s;
+    height: 500px; /*Задаем макс высоту для дроплинка*/
+    opacity: 1; /*Задаем прозрачность*/
+    transition: opacity 2s, height 1s; /*Делаем плавный переход при наведении*/
 }
 
 /*010*/
